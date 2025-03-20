@@ -100,7 +100,7 @@ int main() {
 	memoria[0x8000] = 0xA9; // LDA Immediate
 	memoria[0x8001] = 0x01; // Valore immediato
     memoria[0x8002] = 0x69; // ADD immediato
-    memoria[0x8003] = 0x01; // valore immediato
+    memoria[0x8003] = 0x05; // valore immediato
 	memoria[0x8004] = 0x00; // BRK
 
 	// Imposta il vettore di reset per partire da 0x8000
